@@ -211,6 +211,9 @@ class UpgraderMessages {
         message =
             'Nowa wersja {{appName}} jest dostępna! Wersja {{currentAppStoreVersion}} jest dostępna, Ty masz {{currentInstalledVersion}}.';
         break;
+      case 'ro':
+        message = 'O nouă versiune {{appName}} este disponibilă! Versiunea nouă: {{currentAppStoreVersion}}, versiunea curentă: {{currentInstalledVersion}}.';
+        break;
       case 'ru':
         message =
             'Доступна новая версия приложения {{appName}}! Новая версия: {{currentAppStoreVersion}}, текущая версия: {{currentInstalledVersion}}.';
@@ -333,6 +336,9 @@ class UpgraderMessages {
       case 'pl':
         message = 'IGNORUJ';
         break;
+      case 'ro':
+        message = 'NU';
+        break;
       case 'ru':
         message = 'НЕТ';
         break;
@@ -449,6 +455,9 @@ class UpgraderMessages {
       case 'pl':
         message = 'PÓŹNIEJ';
         break;
+      case 'ro':
+        message = 'MAI TÂRZIU';
+        break;
       case 'ru':
         message = 'ПОЗЖЕ';
         break;
@@ -562,6 +571,9 @@ class UpgraderMessages {
       case 'pl':
         message = 'AKTUALIZUJ';
         break;
+      case 'ro':
+        message = 'ACUM';
+        break;
       case 'ru':
         message = 'ОБНОВИТЬ';
         break;
@@ -674,6 +686,9 @@ class UpgraderMessages {
         break;
       case 'pl':
         message = 'Czy chciałbyś zaktualizować teraz?';
+        break;
+      case 'ro':
+        message = 'Doriți să actualizați acum?';
         break;
       case 'ru':
         message = 'Хотите обновить сейчас?';
@@ -861,6 +876,9 @@ class UpgraderMessages {
         break;
       case 'pl':
         message = 'Czy zaktualizować aplikację?';
+        break;
+      case 'ro':
+        message = 'Actualizați?';
         break;
       case 'ru':
         message = 'Обновить?';
